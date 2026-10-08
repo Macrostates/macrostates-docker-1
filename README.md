@@ -38,3 +38,10 @@ platforms, and deployment infrastructure are out of scope for this package.
 1. [Images](001_images.md)
 2. [Runtime](002_runtime.md)
 3. [Naming and publishing](003_naming-and-publishing.md)
+
+## License
+
+This specification package, including its documentation, metadata, and bundled
+resources, is licensed under the [MIT License](LICENSE).
+
+Copyright (c) 2026 Lucas Lopez.
