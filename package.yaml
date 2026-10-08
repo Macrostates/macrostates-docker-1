@@ -1,9 +1,9 @@
 name: docker-1
-version: 1.0.2
-versioned_at: 2026-08-31 19:29
+version: 2.0.0
+versioned_at: 2026-10-08 12:08
 description: Reusable Docker image and container conventions.
 entrypoint: README.md
 dependencies:
-  - name: meta
-    version: 1.0.2
-    constraint: compatible
+- name: meta
+  version: 2.0.0
+  constraint: compatible
