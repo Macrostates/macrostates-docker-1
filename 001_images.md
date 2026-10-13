@@ -50,6 +50,11 @@ files, build outputs, secrets, editor files, and source-control internals.
 Do not rely on accidental files from a developer machine being present in the
 build context.
 
+Include the authoritative application metadata and captured provenance required
+by [Naming and publishing](003_naming-and-publishing.md). Obtain identity without
+copying the full Git repository into the runtime image or requiring a network
+lookup during a release build.
+
 ## Dependency caching
 
 Dockerfiles should be structured to make dependency installation cacheable when
