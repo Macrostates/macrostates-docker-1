@@ -28,10 +28,22 @@ deployment topology belong in project-specific specifications.
 - Runtime container behavior.
 - Configuration, secrets, volumes, and logging.
 - Image naming, tagging, and metadata.
+- Application-version policy and conditional Macrostates release provenance.
 - Dependency caching and build hygiene.
 
 Programming-language-specific packaging, application architecture, orchestration
 platforms, and deployment infrastructure are out of scope for this package.
+
+Process-specific baseline, preparation, and provenance rules apply when a
+project selects Process 5.0.0 or later, as the optional dependency declares.
+Docker conventions remain usable without it. An
+explicit application policy may version images independently; otherwise a
+Process-governed stable release uses the numeric selected implementation version.
+Image publication is a separate authorized operation from baseline finalization.
+
+Required and optional minima use explicit `at_least` constraints. Numeric
+eligibility across future majors does not establish semantic compatibility;
+review those selected requirements before adopting them.
 
 ## Macrostates artifacts
 
